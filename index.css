@@ -12,8 +12,8 @@ the red: #740407 */
 .background-image {
     position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     z-index: -1;
 }
 .background-image img {
@@ -65,7 +65,7 @@ h2 {
     padding: 1rem;
 }
 
-.cafe-menu-prices {
+.prices-and-hours {
     background-color: black;
     color: white;
     font-family: "Poiret One", sans-serif;
@@ -75,7 +75,7 @@ h2 {
     padding: 1rem 3rem;
 }
 
-.menu-item {
+.item-description {
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
